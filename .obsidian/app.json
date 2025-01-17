@@ -3,5 +3,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "02_notes",
   "attachmentFolderPath": "03_assets",
-  "vimMode": true
+  "vimMode": true,
+  "promptDelete": false
 }
