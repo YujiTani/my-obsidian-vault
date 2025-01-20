@@ -12,13 +12,13 @@ tags:
 prismaCLIで使えるcommand
 ## note
 
-| command                                          | 説明                                             |
-| ------------------------------------------------ | ---------------------------------------------- |
-| npx prisma init --datasource-provider postgresql | 実行ディレクトリに必要最低限​​のファイルを含むディレクトリを作成、shema.prisma |
-| npx prisma generate                              | schema.prismaファイルを読み込んで、Prisma クライアントを生成する     |
-| npx prisma generate --watch                      | schema.prismaの変更を監視して、都度Prisma クライアントを再生成する    |
-| npx prisma validate                              | schemaファイルの構文が正しいかチェックする                       |
-| npx prisma validate --schema {path}              | shcemaファイルを指定して、構文チェックする                       |
-| npx prisma db pull                               | 既存のDBからschemaファイルを作成する                         |
-| npx prisma db pull --print<br>                   | schemaファイルを変更せずに、作成内容をターミナルに表示                 |
-|                                                  |                                                |
+| command                                          | 説明                                                                                     |
+| ------------------------------------------------ | -------------------------------------------------------------------------------------- |
+| npx prisma init --datasource-provider postgresql | 実行ディレクトリに必要最低限​​のファイルを含むディレクトリを作成、shema.prismaのprovider部分にフィールドの値を記述する(どうせ書くので使った方が良い) |
+| npx prisma generate                              | schema.prismaファイルを読み込んで、Prisma クライアントを生成する                                             |
+| npx prisma generate --watch                      | schema.prismaの変更を監視して、都度Prisma クライアントを再生成する                                            |
+| npx prisma validate                              | schemaファイルの構文が正しいかチェックする                                                               |
+| npx prisma validate --schema {path}              | shcemaファイルを指定して、構文チェックする                                                               |
+| npx prisma db pull                               | 既存のDBからschemaファイルを作成する                                                                 |
+| npx prisma db pull --print<br>                   | schemaファイルを変更せずに、作成内容をターミナルに表示                                                         |
+|                                                  |                                                                                        |
