@@ -242,7 +242,7 @@ ON のコアプラグインは以下
 - 新規ファイルの場所
 	- 01_diary
 - テンプレートファイルの場所
-	- 00_template/[[01_diary]]
+	- 00_template/[[01_diary prismaAPI]]
 - 起動時にデイリーノートを開く
 	- ON
 
