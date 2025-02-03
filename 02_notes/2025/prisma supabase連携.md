@@ -96,3 +96,6 @@ datasource db {
   directUrl = env("DIRECT_URL")
 }
 ```
+
+Seedも作っておこう
+[[prisma seed作成方法]]
