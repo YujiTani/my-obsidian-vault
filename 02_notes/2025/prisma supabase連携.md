@@ -81,6 +81,30 @@ alter user "prisma" with password 'new_password';
 ```
 
 ---
+### Prismaのインストール
+
+```
+bun add prisma @prisma/client
+```
+
+初期化
+```
+bunx prisma init
+```
+
+接続チェック
+```
+bunx prisma validate
+```
+
+マイグレーションファイル作成
+```
+bun prisma migrate dev --name init
+```
+seedを作成
+[[prisma seed作成方法]]
+
+---
 ### .env(環境変数設定)をprismaに読み込ませる設定を書く
 supabase内のヘッダーにconnectと書かれてる場所があるので、それを使う
 
@@ -96,6 +120,3 @@ datasource db {
   directUrl = env("DIRECT_URL")
 }
 ```
-
-Seedも作っておこう
-[[prisma seed作成方法]]
