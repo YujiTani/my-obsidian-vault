@@ -2,10 +2,8 @@
 tags:
   - diary
 ---
-# TITLE
-## きょうやることのメインタスク名
 
-## TODO(今日やること)
+## TODO
 - [ ] TODO1
 - [ ] TODO2
 ## NOTE
