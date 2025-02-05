@@ -8,5 +8,6 @@ tags:
 > ご自分にとって使いやすいように編集してください。
 
 ## note
+エラー内容に応じた知見をまとめる
 
-[[ Parsing error ]]
+[[ Parsing error ]] 
