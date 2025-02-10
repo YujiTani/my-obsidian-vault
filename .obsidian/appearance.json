@@ -1,11 +1,12 @@
 {
   "theme": "moonstone",
-  "interfaceFontFamily": "M PLUS 1",
+  "interfaceFontFamily": "HackGen35 Console NF",
   "textFontFamily": "HackGen Console NF",
   "monospaceFontFamily": "M PLUS 1 Code",
   "showViewHeader": false,
-  "cssTheme": "Things",
+  "cssTheme": "Minimal",
   "accentColor": "#0050d1",
   "baseFontSizeAction": true,
-  "baseFontSize": 17
+  "baseFontSize": 17,
+  "translucency": false
 }
