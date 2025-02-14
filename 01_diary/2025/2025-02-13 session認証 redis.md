@@ -1,6 +1,8 @@
 ---
 tags:
   - diary
+  - Auth
+  - redis
 ---
 
 ## TODO
