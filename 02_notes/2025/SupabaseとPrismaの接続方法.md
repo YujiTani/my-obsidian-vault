@@ -8,7 +8,6 @@ tags:
 > このテンプレート[[02_note]]の内容（見出しNote）はサンプルです。
 > ご自分にとって使いやすいように編集してください。
 
-## note
 ## 接続に必要な情報
 ### .envファイル
 ```
@@ -20,7 +19,6 @@ DIRECT_URL="postgres://[DB-USER].[PROJECT-REF]:[PRISMA-PASSWORD]@aws-0-us-east-1
 DB-USER … DB接続に使用するユーザー
 PROJECT-REF … `supabase`のダッシュボード > `setting` > `General` > `General settings` > `Project ID`を使う
 PRISMA-PASSWORD … Projectを作成した時に設定したProjectのパスワードを使用する
-
 ### schema.prismaファイル
 ```
 generator client {
@@ -54,3 +52,6 @@ Already in sync, no schema change or pending migration was found.
 ✔ Generated Prisma Client (v6.3.1) to ./node_modules/@prisma/client in 15
 5ms
 ```
+
+### Error対応
+[Troubleshooting prisma errors | Supabase Docs](https://supabase.com/docs/guides/database/prisma/prisma-troubleshooting)
