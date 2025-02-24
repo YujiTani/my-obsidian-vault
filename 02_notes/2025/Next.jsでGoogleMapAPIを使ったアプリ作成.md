@@ -54,6 +54,8 @@ navigate.geolocation.getCurrentPositionで取得できる
 - 目的地への道なり距離と時間を表示
 	- 距離と時間を表示しますか？と確認する(いらんかも？)
 
+- directionAPIの理解と使い方を知る必要がある
+
 ## それをプログレッシブバーで表現
 左：スタート
 右：ゴール
