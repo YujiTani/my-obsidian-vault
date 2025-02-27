@@ -19,6 +19,17 @@ https://maps.googleapis.com/maps/api/directions/json?origin=東京都庁&destina
 
 ### MEMO
 メモしたいことを書く
+[scriptタグで行っていることを、javascriptファイルに記述する方法]
+```
+<script 
+  src="https://maps.googleapis.com/maps/api/js
+  ?key=YOUR_API_KEY                             <!-- (1) APIキー -->
+  &callback=initMap                             <!-- (2) コールバック関数 -->
+  &libraries=geometry"                          <!-- (3) 追加ライブラリ -->
+  async                                         <!-- (4) 非同期読み込み -->
+  defer>                                        <!-- (5) 遅延実行 -->
+</script>
+```
 
 
 ### Wishlist
